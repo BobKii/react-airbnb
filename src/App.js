@@ -1,3 +1,5 @@
+import Page from "./component/page";
+
 function App() {
   const data = {
     listing_name: "Іст-Сайд Біл",
@@ -79,7 +81,8 @@ function App() {
       image: "https://picsum.photos/80/80",
       response_rate: 100,
       response_time: "within an hour",
-      info: "I'm an Austin-Brooklyn filmmaker and television producer who can be found biking to the Farmer's Market...",
+      info:
+        "I'm an Austin-Brooklyn filmmaker and television producer who can be found biking to the Farmer's Market...",
       phone: "+123-456-7890",
     },
 
@@ -144,7 +147,7 @@ function App() {
     ],
   };
 
-  return <div>Hello World</div>;
+  return <Page>Hello World</Page>;
 }
 
 export default App;
