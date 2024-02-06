@@ -1,0 +1,63 @@
+.price {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+
+.price__header {
+  display: flex;  
+  gap: 12px;
+}
+
+.price__value {
+  font-size: 32px;
+  color: #000;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.price__value--has-discount {
+  color: #6c757d;
+  text-decoration: line-through;
+}
+
+.price__list {
+  display: grid;
+  gap: 12px;
+}
+
+.price__list-item {
+  border-bottom: 1px solid #dee2e6;
+  padding-bottom: 8px;
+  font-size: 16px;
+  display: flex;
+  gap: 12px;
+}
+.frame1 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
+.frame1__1 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.frame1__photo {
+  border-radius: 40px;
+}
+
+.frame1__1-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.frame1__1-2-name {
+  font-size: 32px;
+  font-weight: 700;
+}

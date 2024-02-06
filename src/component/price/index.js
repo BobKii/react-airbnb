@@ -19,8 +19,8 @@ export default function Price({
     <Box className="price">
       <div className="price__header">
         <span
-          className={`price_value ${
-            discount ? "price_value--has-discount" : ""
+          className={`price__value ${
+            discount ? "price__value--has-discount" : ""
           }`}
         >
           {currency}
